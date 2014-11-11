@@ -1,0 +1,38 @@
+#header {
+  background-color: #222;
+  font-family: "Open Sans", sans-serif;
+}
+
+#header .right {
+  padding-top: 15px;
+  text-align: right;
+}
+
+#header a, #header a:visited, #header a:hover {
+  color: #08c;
+}
+
+#header a.request {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 4px 10px;
+  margin-left: 20px;
+
+  border: 2px solid #999;
+  border-radius: 4px;
+  color: #999;
+  text-decoration: none;
+}
+
+#header a.request:visted {
+  color: #999;
+}
+
+#header a.request:hover {
+  border-color: #08c;
+  color: #08c;
+}
+
+#hero h1 {
+  display: none;
+}
